@@ -24,7 +24,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <link href="css/style7.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="css/stylet1.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- font-awesome-icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome-icons -->
@@ -357,7 +356,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //team -->
 
-
 <!-- gallery -->
 	<div id="gallery" class="gallery_main">
 		<div class="container">
@@ -510,82 +508,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //testimonials -->
-<!-- mail -->
-<div id="contact"></div>
-<div class="mail" id="mail">
-	<div class="container">
-		<div class="agileits-title">
-			<h3>Mail Us</h3>
-		</div>
-		<div class="w3_mail_grids">
-			<form action="#" method="post">
-					<span class="input input--jiro">
-						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
-						<label class="input__label input__label--jiro" for="input-10">
-							<span class="input__label-content input__label-content--jiro">Your Name</span>
-						</label>
-					</span>
-				<span class="input input--jiro">
-						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
-						<label class="input__label input__label--jiro" for="input-11">
-							<span class="input__label-content input__label-content--jiro">Your Email</span>
-						</label>
-					</span>
-				<span class="input input--jiro">
-						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
-						<label class="input__label input__label--jiro" for="input-12">
-							<span class="input__label-content input__label-content--jiro">Phone Number</span>
-						</label>
-					</span>
-				<textarea name="Message" placeholder="Message..." required=""></textarea>
-				<input type="submit" value="Submit">
-			</form>
+
+	<div id="contact" class="contact">
+		<div class="container">
+			<h3 class="wthree_head">Contact Us <span>Sounds made by voices</span></h3>
+			<div class="w3layouts_mail_grids">
+				<div class="w3layouts_mail_grid_right">
+					<form action="#" method="post">
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input type="email" name="Email" placeholder="Email" required="">
+						</div>
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Telephone" placeholder="Telephone" required="">
+							<input type="text" name="Subject" placeholder="Subject" required="">
+						</div>
+						<div class="clearfix"> </div>
+						<textarea name="Message" placeholder="Message..." required=""></textarea>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Clear">
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
-<script src="js/classie.js"></script>
-<script>
-    (function() {
-        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-        if (!String.prototype.trim) {
-            (function() {
-                // Make sure we trim BOM and NBSP
-                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                String.prototype.trim = function() {
-                    return this.replace(rtrim, '');
-                };
-            })();
-        }
-
-        [].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
-            // in case the input is already filled..
-            if( inputEl.value.trim() !== '' ) {
-                classie.add( inputEl.parentNode, 'input--filled' );
-            }
-
-            // events:
-            inputEl.addEventListener( 'focus', onInputFocus );
-            inputEl.addEventListener( 'blur', onInputBlur );
-        } );
-
-        function onInputFocus( ev ) {
-            classie.add( ev.target.parentNode, 'input--filled' );
-        }
-
-        function onInputBlur( ev ) {
-            if( ev.target.value.trim() === '' ) {
-                classie.remove( ev.target.parentNode, 'input--filled' );
-            }
-        }
-    })();
-</script>
-<!-- //mail -->
-
 	<div class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.878331233398!2d-73.9881300845955!3d40.69867717933326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3455555555%3A0xba0a7f3d92bbaa09!2sEducation+Department!5e0!3m2!1sen!2sin!4v1473320053257" style="border:0"></iframe>
+		<div class="agile_map_grid">
+			<div class="agile_map_grid1">
+				<h3>Contact Info</h3>
+				<ul>
+					<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><span>address :</span> 868 1st Avenue NYC.</li>
+					<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><span>email :</span> <a href="mailto:info@example.com">info@example.com</a></li>
+					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><span>call to us :</span> (+123) 233 2362 826</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 <!-- //contact -->
-
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
@@ -607,6 +567,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><span>Email :</span> <a href="mailto:info@example.com">info@example1.com</a></li>
 						<li><span>Enquiry :</span> <a href="mailto:info@enquiry.com">info@enquiry.com</a></li>
 					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3_agileits_footer_grids">
+				<div class="col-md-4 w3_agileits_footer_grid">
+					<p>Nulla ex dolor, elementum sit amet placerat at, pretium in tortor. 
+						Vestibulum lacinia arcu quis lacus sollicitudin condimentum. 
+						Ut ac aliquet ex.</p>
+				</div>
+				<div class="col-md-4 w3_agileits_footer_grid">
+					<h3>Hours Work</h3>
+					<h4>Admissions are opened</h4>
+					<ul>
+						<li><span>Mon - Fri : </span> 9:00 AM to 5:00PM</li>
+						<li><span>Sat : </span> 10:00 AM to 3:00PM</li>
+					</ul>
+				</div>
+				<div class="col-md-4 w3_agileits_footer_grid">
+					<h3>Subscribe Now</h3>
+					<form action="#" method="post">
+						<input type="email" name="Email" placeholder="Email" required="">
+						<input type="submit" value="Submit ">
+					</form>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
