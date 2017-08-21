@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style-pre.css" type="text/css" media="all" />
+</head>
+<body>
+
+<!-- Page preloader-->
+<div class="page-loader">
+    <div>
+        <div class="page-loader-body">
+            <div class="cssload-loader">
+                <div class="cssload-inner cssload-one"></div>
+                <div class="cssload-inner cssload-two"></div>
+                <div class="cssload-inner cssload-three"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+<script>
+    jQuery(document).ready(function($) {
+
+// site preloader -- also uncomment the div in the header and the css style for #preloader
+        $(window).load(function(){
+            setTimeout(function () {
+                $('.page-loader').fadeOut("fast");
+            },700);
+        });
+
+    });
+</script>
+</body>
+</html>
