@@ -1,0 +1,337 @@
+/*--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+/*-- w3layouts-banner-info --*/
+
+/*-- about--*/
+.mail{
+    padding: 4em 0;
+}
+
+.agileits-title h2,.agileits-title h3{
+    font-size: 4em;
+    color: #ff9800;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.agileits-title p {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+    margin: 1em auto 0;
+    width: 65%;
+}
+
+.w3_mail_grids{
+    margin: 4em 0 0 0;
+}
+
+
+/*-- mail --*/
+.w3_mail_grids textarea{
+    outline: none;
+    padding: 10px;
+    color: #212121;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid #212121;
+    background: none;
+    width: 97.3%;
+    margin: 0 0 3em 1.1em;
+    min-height: 150px;
+    resize: none;
+    font-weight: 600;
+}
+.w3_mail_grids textarea::-webkit-input-placeholder {
+	color: #212121 !important;
+}
+.w3_mail_grids input[type="submit"]{
+    outline: none;
+    padding: .5em 1em;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 1em;
+    border: none;
+    text-transform: uppercase;
+    background: #FF9800;
+	border: 2px solid #FF9800;
+    font-weight: 600;
+	-o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.w3_mail_grids input[type="submit"]:hover{
+	color:#212121;
+	border: 2px solid #212121;
+	background:none;
+}
+.input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 1em;
+    max-width: 30%;
+    width: calc(100% - 2em);
+    vertical-align: top;
+}
+
+.input__field {
+	position: relative;
+	display: block;
+	float: right;
+	padding: 0.8em;
+	width: 60%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #aaa;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+	outline: none;
+}
+
+.input__label {
+	display: inline-block;
+    padding: 0 1em;
+    width: 40%;
+    color: #212121;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input__label-content {
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+/* Jiro */
+.input__field--jiro {
+	padding:1em 0.5em;
+	width: 100%;
+	background: transparent;
+	color: #212121;
+    font-size: 14px;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.input__label--jiro {
+	position: absolute;
+	left: 0;
+	padding: 0 0.85em;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	pointer-events: none;
+	font-size: 14px;
+}
+
+.input__label-content--jiro {
+	-webkit-transition: -webkit-transform 0.3s 0.3s;
+	transition: transform 0.3s 0.3s;
+}
+
+.input__label--jiro::before,
+.input__label--jiro::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.input__label--jiro::before {
+    border-top: 2px solid #212121;
+    -webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+    transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.input__label--jiro::after {
+	z-index: -1;
+	background:#f5f5f5;
+	-webkit-transform: scale3d(1, 0, 1);
+	transform: scale3d(1, 0, 1);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.input__field--jiro:focus,
+.input--filled .input__field--jiro {
+	opacity: 1;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.input__field--jiro:focus + .input__label--jiro .input__label-content--jiro,
+.input--filled .input__label-content--jiro {
+	-webkit-transform: translate3d(0, -80%, 0);
+	transform: translate3d(0, -80%, 0);
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__field--jiro:focus + .input__label--jiro::before,
+.input--filled .input__label--jiro::before {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.input__field--jiro:focus + .input__label--jiro::before,
+.input--filled .input__label--jiro::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input__field--jiro:focus + .input__label--jiro::after,
+.input--filled .input__label--jiro::after {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+/*-- //mail --*/
+
+
+/*-- responsive --*/
+@media(max-width:1080px){
+
+	.input {
+		max-width: 29.5%;
+	}
+}
+
+
+@media(max-width:991px){
+	.agileits-title p {
+		width: 95%;
+	}
+	.support input[type="email"] {
+		width: 83%;
+	}
+	.input {
+		max-width: 28.5%;
+	}
+}
+
+
+@media(max-width:736px){
+	.input {
+		max-width: 28%;
+	}
+	.support input[type="email"] {
+		width: 82%;
+	}
+}
+
+
+@media(max-width:667px){
+	.input {
+		max-width: 27.5%;
+	}
+	.support input[type="email"] {
+		width: 80%;
+	}
+}
+
+
+@media (max-width:640px) {
+	.support input[type="email"] {
+		width: 78%;
+	}
+}
+@media(max-width:600px){
+	.input {
+		max-width: 27%;
+	}
+	.support input[type="email"] {
+		width: 77%;
+	}
+}
+
+
+@media(max-width:568px){
+	.input {
+		max-width: 26%;
+	}
+	.support input[type="email"] {
+		width: 75%;
+	}
+}
+
+
+@media(max-width:480px){
+	.input {
+		max-width: 100%;
+	}
+	.w3_mail_grids textarea {
+		width: 93.3%;
+		margin: 1em;
+	}
+	.support input[type="email"] {
+		width: 70%;
+	}
+}
+
+
+@media(max-width:414px){
+
+	.mail {
+		padding: 2em 0;
+	}
+	.w3_mail_grids{
+		margin: 2em 0 0 0;
+	}
+	.support input[type="email"] {
+		width: 62%;
+	}
+}
+
+
+@media(max-width:384px){
+	.support input[type="email"] {
+		width: 58%;
+	}
+}
+
+
+@media(max-width:320px){
+	.w3_mail_grids input[type="submit"] {
+		font-size: .9em;
+	}
+	.contact-w3lsright {
+		padding: 2em;
+	}
+	.support input[type="email"] {
+		width: 100%;
+	}
+	.support input[type="submit"] {
+		margin: 1em 0 0 0;
+	}
+}
+/*-- //responsive --*/
