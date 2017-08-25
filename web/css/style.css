@@ -51,7 +51,7 @@ a:focus{
 }
 /*-- banner --*/
 .banner_top {
-    background: url(../images/home.jpg) no-repeat 0px 0px;
+    background: url(../images/prad-home.jpg) no-repeat 0px 0px;
     min-height: 800px;
     position: relative;
     background-size: cover;
