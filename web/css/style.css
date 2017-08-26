@@ -51,11 +51,7 @@ a:focus{
 }
 /*-- banner --*/
 .banner_top {
-<<<<<<< HEAD
-    background: url(https://images3.alphacoders.com/675/675273.jpg) no-repeat 0px 0px;
-=======
     background: url(../images/prad-home.jpg) no-repeat 0px 0px;
->>>>>>> b92a28540103f11964c809a5c858878cd095270c
     min-height: 800px;
     position: relative;
     background-size: cover;
@@ -391,7 +387,7 @@ li.agileinfo_share {
 /*-- //banner --*/
 /*-- banner-text --*/
 .banner-text{
-    background: url(http://wallpapercave.com/wp/Ou1L18s.jpg)no-repeat center;
+    background: url(https://images3.alphacoders.com/675/675273.jpg)no-repeat center;
        background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
