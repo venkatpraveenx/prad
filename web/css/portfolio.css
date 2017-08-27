@@ -206,6 +206,7 @@
   transform: translateY(-50%);
   z-index: 5;
   box-sizing: border-box;
+
 }
 .lightbox-item .person-info {
   padding: 60px 50px 60px 140px;
