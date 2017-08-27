@@ -115,7 +115,8 @@
 }
 @media (min-width: 700px) {
   .gallery-link img {
-    width: auto;
+    width: 160px;
+    height: 160px;
     margin: 0;
   }
   .gallery-link .gallery-name {
@@ -243,10 +244,10 @@
   padding: 60px 50px 60px 140px;
   margin: 0;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.35);
-  background-color: white;
+  background-color: #000000;
   list-style: none;
   box-sizing: border-box;
-  color: #999999;
+  color: #FFFFFF;
   overflow: hidden;
 }
 .lightbox-item .person-info li {
@@ -258,7 +259,7 @@
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size:20px;
-  color: #003665;
+  color: red;
   font-family: 'Limelight', cursive;
 }
 .lightbox-item .person-info li:last-child {
