@@ -1,8 +1,4 @@
-<!--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -33,32 +29,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="navbar-wrapper">
 		<div class="container">
 			<nav class="navbar navbar-inverse navbar-static-top">
-
 			</nav>
 		</div>
     </div>
-	<div class="pogoSlider" id="js-main-slider" style="visibility: hidden">
-		<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url(images/banner1.jpg);">
-			<div class="pogoSlider-slide-element">
-				<h3>Lecture  - Designed For Education</h3>
-			</div>
-		</div>
-		<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url(images/banner2.jpg);">
-			<div class="pogoSlider-slide-element">
-				<h3>Lecture - Free Education</h3>
-			</div>
-		</div>
-		<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url(images/banner3.jpg);">
-			<div class="pogoSlider-slide-element">
-				<h3>Lecture - Education For Everybody</h3>
-			</div>
-		</div>
-		<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url(images/banner4.jpg);">
-			<div class="pogoSlider-slide-element">
-				<h3>Lecture - Simply Education</h3>
-			</div>
-		</div>
-	</div><!-- .pogoSlider -->
 </section>
 <!-- /banner section -->
 
@@ -1556,22 +1529,13 @@ $(window).scroll(function() {
     var pos = $(this).offset().top;
 
     var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
+    if (pos < winTop + 10000) {
       $(this).addClass("slide");
     }
   });
 });
 </script>
-<script src="js/jarallax.js"></script>
-<script type="text/javascript">
-    /* init Jarallax */
-    $('.jarallax').jarallax({
-        speed: 0.5,
-        imgWidth: 1366,
-        imgHeight: 768
-    })
-</script>
-<script type="text/javascript" src="js/events.js"></script>
+
 <!-- js for portfolio -->
 <script src='js/TweenMax.min.js'></script>
 <script src="js/portfolio.js"></script>
