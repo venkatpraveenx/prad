@@ -115,7 +115,8 @@
 }
 @media (min-width: 700px) {
   .gallery-link img {
-    width: auto;
+    width: 160px;
+    height: 160px;
     margin: 0;
   }
   .gallery-link .gallery-name {
