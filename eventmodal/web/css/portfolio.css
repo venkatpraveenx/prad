@@ -183,7 +183,6 @@
 }
 .lightbox-item .gallery-department {
   position: absolute;
-  top: -30px;
   left: 0;
   z-index: 5;
   color:#dcdcdc;
@@ -193,11 +192,12 @@
   font-family: 'Limelight', cursive;
 }
 .lightbox-item .person-info-wrap {
+  height: 90%;
   width: 100%;
   padding-left: 100px;
   display: block !important;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -206,6 +206,7 @@
   transform: translateY(-50%);
   z-index: 5;
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 .lightbox-item .person-info {
   padding: 60px 50px 60px 140px;
