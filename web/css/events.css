@@ -330,7 +330,10 @@
     left: 0;
   }
   .lightbox-item .gallery-department {
-    display: none;
+    top:43%;
+    left: 15%;
+    z-index: 5000;
+    font-size: 30px;
   }
   .lightbox-item-backdrop {
     display: none;
@@ -369,8 +372,8 @@
   .lightbox-item-backdrop {
     display: block;
     left:10%;
-    top:45%;
-    height: 97%;
+    top:40%;
+    height: 100%;
     width: 80%;
   }
 }
