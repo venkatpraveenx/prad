@@ -303,15 +303,10 @@
 @media (max-width: 700px) {
   .lightbox-item {
     text-align: center;
+    top:20%;
   }
   .lightbox-item img {
-    position: relative;
-    top: 0;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-    transform: none;
+    display: none;
   }
   .lightbox-item .person-info-wrap {
     padding-left: 0px;
@@ -340,6 +335,17 @@
   .lightbox-item .gallery-department {
     display: none;
   }
+  .lightbox-item-backdrop {
+    display: none;
+  }
+  .btnReg{
+    top:82%;
+    left:30%;
+  }
+  .btnClose{
+    top:82%;
+    left: 55%;
+  }
 }
 
 .lightbox-img {
@@ -361,8 +367,11 @@
 }
 @media (max-width: 700px) {
   .lightbox-item-backdrop {
-    left: 20px;
-    right: 20px;
+    display: block;
+    left:10%;
+    top:45%;
+    height: 97%;
+    width: 80%;
   }
 }
 
