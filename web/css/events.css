@@ -179,10 +179,16 @@
 .btnClose{
   display: block;
   position: fixed;
-  top: 70%;
-  left: 60%;
-  width: 100px;
-  height: 100px;
+  top: 85%;
+  left: 55%;
+  z-index: 3000;
+}
+
+.btnReg{
+  display: block;
+  position: fixed;
+  top: 85%;
+  left: 45%;
   z-index: 3000;
 }
 
@@ -204,7 +210,7 @@
 }
 .lightbox-item img {
   position: absolute;
-  top: 50%;
+  top: 40%;
   -webkit-transform: translate(0%, -50%);
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
@@ -229,17 +235,17 @@
   z-index: 5;
   color:#dcdcdc;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 45px;
   line-height: .9;
   font-family: 'Limelight', cursive;
 }
 .lightbox-item .person-info-wrap {
-  height: 90%;
+  height: 80%;
   width: 100%;
   padding-left: 100px;
   display: block !important;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 0px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);

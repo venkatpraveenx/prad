@@ -32,7 +32,7 @@ $(function () {
   var viewportWidth = window.innerWidth;
 
   function openLightbox(obj) {
-    $(".lightbox-bg, .lightbox-img, .lightbox-item, .btnClose").removeClass("hidden");
+    $(".lightbox-bg, .lightbox-img, .lightbox-item, .btnClose, .btnReg").removeClass("hidden");
 
     var content = obj.contents().clone();
     $(".lightbox-item").append(content, "<div class='lightbox-item-backdrop'></div>");
@@ -53,7 +53,7 @@ $(function () {
     // tl1.clear;
     var tl2 = new TimelineMax({onComplete:function(){
       TweenMax.killAll();
-      $(".lightbox-bg, .lightbox-item, .lightbox-img, .btnClose").addClass("hidden");
+      $(".lightbox-bg, .lightbox-item, .lightbox-img, .btnClose, .btnReg").addClass("hidden");
       $(".lightbox-bg, .lightbox-item, .lightbox-img").removeAttr( "style" );
       $(".lightbox-img, .lightbox-item").contents().remove();
     }})
