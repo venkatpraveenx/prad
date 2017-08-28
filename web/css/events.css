@@ -51,6 +51,7 @@
 
 .gallery-link {
   display: block;
+  width:100px;
   text-align: center;
   -webkit-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
