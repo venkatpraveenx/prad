@@ -176,6 +176,16 @@
   }
 }
 
+.btnClose{
+  display: block;
+  position: fixed;
+  top: 70%;
+  left: 60%;
+  width: 100px;
+  height: 100px;
+  z-index: 3000;
+}
+
 .lightbox-item {
   display: block;
   position: fixed;
