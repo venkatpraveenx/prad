@@ -6,7 +6,7 @@ if(isset($_GET['Name'])&&isset($_GET['Email'])&&isset($_GET['Phone'])&&isset($_G
     $message=$_GET['Message'];
     $header="From: ".$name."";
     if(!empty($name)&&!empty($email)&&!empty($number)&&!empty($message)){
-        mail("venkatpraveenx@gmail.com","From:$name, Mobile:$number, Email: $email",$message,$header);
+        mail("pradharshini17@gmail.com","From:$name, Mobile:$number, Email: $email",$message,$header);
         echo "Thanks for mailing us, we will get back to you as soon as possible.";
     }else{
         echo "An error occurred, try again later";
@@ -15,5 +15,3 @@ if(isset($_GET['Name'])&&isset($_GET['Email'])&&isset($_GET['Phone'])&&isset($_G
     echo "An error occurred, try again later";
 }
 ?>
-
-
