@@ -18,6 +18,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 }
 
+.filter-full_name {
+  padding-top: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size:20px;
+  color: red;
+  font-family: 'Limelight', cursive;
+}
+
 body{
 	margin:0;
 	padding:0;
