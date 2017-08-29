@@ -175,11 +175,11 @@
   left: 55%;
   z-index: 3000;
 
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -400%);
+  -moz-transform: translate(-50%, -400%);
+  -ms-transform: translate(-50%, -400%);
+  -o-transform: translate(-50%, -400%);
+  transform: translate(-50%, -400%);
 }
 
 .btnReg{
@@ -189,11 +189,11 @@
   left: 45%;
   z-index: 3000;
 
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -400%);
+  -moz-transform: translate(-50%, -400%);
+  -ms-transform: translate(-50%, -400%);
+  -o-transform: translate(-50%, -400%);
+  transform: translate(-50%, -400%);
 }
 
 .lightbox-item {
