@@ -304,6 +304,9 @@
   .lightbox-item img {
     display: none;
   }
+  .lightbox-img{
+    display: none;
+  }
   .lightbox-item .person-info-wrap {
     padding-left: 0px;
     -webkit-transform: none !important;
@@ -358,6 +361,9 @@
     top:20%;
   }
   .lightbox-item img {
+    display: none;
+  }
+  .lightbox-img{
     display: none;
   }
   .lightbox-item .person-info-wrap {
@@ -417,6 +423,9 @@
     top:20%;
   }
   .lightbox-item img {
+    display: none;
+  }
+  .lightbox-img{
     display: none;
   }
   .lightbox-item .person-info-wrap {
