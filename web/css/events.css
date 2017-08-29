@@ -223,7 +223,6 @@
 }
 .lightbox-item .gallery-department {
   position: relative;
-
   z-index: 5;
   color:#dcdcdc;
   text-transform: uppercase;
@@ -294,6 +293,10 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
+  .lightbox-item .person-info-wrap{
+    height: 75%;
+  }
+
   .lightbox-item {
     text-align: center;
     top:20%;
