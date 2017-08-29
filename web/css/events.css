@@ -292,10 +292,66 @@
   transform: translateY(50%);
 }
 
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 345px) {
   .lightbox-item .person-info-wrap{
     height: 75%;
   }
+
+  .lightbox-item {
+    text-align: center;
+    top:20%;
+  }
+  .lightbox-item img {
+    display: none;
+  }
+  .lightbox-item .person-info-wrap {
+    padding-left: 0px;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+  }
+  .lightbox-item .person-info {
+    padding: 20px 60px;
+    border: none;
+  }
+  .lightbox-item .person-info li {
+    line-height: 1.4;
+  }
+  .lightbox-item .page-link {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+    right: 0;
+    left: 0;
+  }
+  .lightbox-item .gallery-department {
+    top:43%;
+
+    z-index: 5000;
+    font-size: 30px;
+  }
+  .lightbox-item-backdrop {
+    display: none;
+  }
+  .btnReg{
+    top:92%;
+    left:30%;
+  }
+  .btnClose{
+    top:92%;
+    left: 55%;
+  }
+  .gallery-item{
+    width: 100px;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
 
   .lightbox-item {
     text-align: center;
