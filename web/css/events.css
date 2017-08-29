@@ -43,11 +43,6 @@
   position: relative;
   display: inline-block;
 }
-@media (max-width: 700px) {
-  .gallery-item {
-    margin: 20px;
-  }
-}
 
 .gallery-link {
   display: block;
@@ -227,8 +222,8 @@
   color: #bbb900;
 }
 .lightbox-item .gallery-department {
-  position: absolute;
-  left: 0;
+  position: relative;
+
   z-index: 5;
   color:#dcdcdc;
   text-transform: uppercase;
@@ -237,12 +232,12 @@
   font-family: 'Limelight', cursive;
 }
 .lightbox-item .person-info-wrap {
-  height: 80%;
+  height: 75%;
   width: 100%;
   padding-left: 100px;
   display: block !important;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -297,7 +292,63 @@
   -o-transform: translateY(50%);
   transform: translateY(50%);
 }
-@media (max-width: 700px) {
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .lightbox-item {
+    text-align: center;
+    top:20%;
+  }
+  .lightbox-item img {
+    display: none;
+  }
+  .lightbox-item .person-info-wrap {
+    padding-left: 0px;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+  }
+  .lightbox-item .person-info {
+    padding: 20px 60px;
+    border: none;
+  }
+  .lightbox-item .person-info li {
+    line-height: 1.4;
+  }
+  .lightbox-item .page-link {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+    right: 0;
+    left: 0;
+  }
+  .lightbox-item .gallery-department {
+    top:43%;
+
+    z-index: 5000;
+    font-size: 30px;
+  }
+  .lightbox-item-backdrop {
+    display: none;
+  }
+  .btnReg{
+    top:92%;
+    left:30%;
+  }
+  .btnClose{
+    top:92%;
+    left: 55%;
+  }
+  .gallery-item{
+    width: 100px;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
   .lightbox-item {
     text-align: center;
     top:20%;
@@ -348,6 +399,7 @@
   }
   .gallery-item{
     width: 100px;
+    margin: 20px;
   }
 }
 
