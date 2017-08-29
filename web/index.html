@@ -8,8 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="Pradharshini, KMC culturals, Pradharshini 2017, KMC, Kilpauk Medical College, pradharshini, pradharshini'17, pradharshini 2k17, culturals" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-				function hideURLbar(){ window.scrollTo(0,1); } </script>
+
 		<!-- //custom-theme -->
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<!-- gallery -->
@@ -143,7 +142,17 @@
 			</div>
 		<!--//welcome-->
 
-
+<!-- Old Video Gallery
+<div class="banner-text w3-agile-banner-text" id="myModal2">
+				<div class="agile_dot_info">
+					<div class="container">
+						<h2 class="wthree_head">Videos<span></span></h2>
+						<iframe width="854" height="480" src="https://www.youtube.com/embed/OP2A5s7Eccs" frameborder="0" allowfullscreen></iframe>
+						<iframe width="854" height="480" src="https://www.youtube.com/embed/njsFPzj92Fg" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+-->
 		<!-- video gallery -->
 		<div class="banner-text w3-agile-banner-text" id="myModal2">
 				<div class="agile_dot_info">
@@ -1805,35 +1814,35 @@
 		<!-- contact -->
 
 		<div class="mail" id="mail">
-				<div class="container">
-						<div class="agileits-title">
-								<h3>Mail Us</h3>
-						</div>
-						<div class="w3_mail_grids">
-								<form action="#" method="post">
+			<div class="container">
+				<div class="agileits-title">
+					<h3>Mail Us</h3>
+				</div>
+				<div class="w3_mail_grids">
+					<form id="mform">
 							<span class="input input--jiro">
 								<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
 								<label class="input__label input__label--jiro" for="input-10">
 									<span class="input__label-content input__label-content--jiro">Your Name</span>
 								</label>
 							</span>
-										<span class="input input--jiro">
+						<span class="input input--jiro">
 								<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
 								<label class="input__label input__label--jiro" for="input-11">
 									<span class="input__label-content input__label-content--jiro">Your Email</span>
 								</label>
 							</span>
-										<span class="input input--jiro">
-								<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
+						<span class="input input--jiro">
+								<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone" placeholder="Phone Number" required=""/>
 								<label class="input__label input__label--jiro" for="input-12">
 									<span class="input__label-content input__label-content--jiro">Phone Number</span>
 								</label>
 							</span>
-										<textarea name="Message" placeholder="Message..." required=""></textarea>
-										<input type="submit" value="Submit">
-								</form>
-						</div>
+						<textarea name="Message" placeholder="Message..." required=""></textarea>
+						<input type="submit" value="Submit">
+					</form>
 				</div>
+			</div>
 		</div>
 
 		<div class="map">
@@ -1877,6 +1886,26 @@
 
 			<!-- js -->
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script>
+            $(function () {
+
+                $('#mform').on('submit', function (e) {
+
+                    e.preventDefault();
+
+                    $.ajax({
+                        type: 'get',
+                        url: 'mail.php',
+                        data: $('#mform').serialize(),
+                        success: function (returndata) {
+                            alert(returndata);
+                        }
+                    });
+
+                });
+
+            });
+		</script>
 		<script type="text/javascript" src="js/videos.js"></script>
 		<!-- //js -->
 		<script src="js/modernizr-2.6.2.min.js"></script>
