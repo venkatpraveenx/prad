@@ -174,12 +174,6 @@
   top: 85%;
   left: 55%;
   z-index: 3000;
-
-  -webkit-transform: translate(-50%, -400%);
-  -moz-transform: translate(-50%, -400%);
-  -ms-transform: translate(-50%, -400%);
-  -o-transform: translate(-50%, -400%);
-  transform: translate(-50%, -400%);
 }
 
 .btnReg{
@@ -188,12 +182,6 @@
   top: 85%;
   left: 45%;
   z-index: 3000;
-
-  -webkit-transform: translate(-50%, -400%);
-  -moz-transform: translate(-50%, -400%);
-  -ms-transform: translate(-50%, -400%);
-  -o-transform: translate(-50%, -400%);
-  transform: translate(-50%, -400%);
 }
 
 .lightbox-item {
@@ -210,7 +198,7 @@
   width: 90%;
   max-width: 800px;
   height: 90%;
-  max-height: 500px;
+  max-height: 600px;
 }
 .lightbox-item img {
   position: absolute;
