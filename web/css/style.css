@@ -5,6 +5,19 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+#mobVid{
+	display: none;
+}
+
+@media(max-width: 700px){
+	#mobVid{
+		display: block;
+	}
+	#myModal2{
+		display: none;
+	}
+}
+
 body{
 	margin:0;
 	padding:0;
