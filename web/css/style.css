@@ -77,7 +77,7 @@ a:focus{
     background: url(../images/prad-home.jpg) no-repeat 0px 0px;
     min-height: 800px;
     position: relative;
-    background-size: contain;
+    background-size: cover;
 }
 h3.w3ls_agile {
     font-size: 3.3em;
@@ -1629,6 +1629,9 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 }
 @media (max-width: 767px){
+	.banner_top {
+	    background-size: contain;
+	}
 	.navbar-default .navbar-toggle {
 		border-color: #212121;
 	}
