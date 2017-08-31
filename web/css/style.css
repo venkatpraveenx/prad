@@ -410,7 +410,7 @@ li.agileinfo_share {
 /*-- //banner --*/
 /*-- banner-text --*/
 .banner-text{
-    background: url(https://images3.alphacoders.com/675/675273.jpg)no-repeat center;
+    background: url(../images/scrolling.jpg)no-repeat center;
        background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1629,9 +1629,6 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 }
 @media (max-width: 767px){
-	.banner_top {
-	    background-size: contain;
-	}
 	.navbar-default .navbar-toggle {
 		border-color: #212121;
 	}
