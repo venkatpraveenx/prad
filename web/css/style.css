@@ -5,13 +5,6 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
-
-.agileits-banner-links{
-		width: 100%;
-		text-align: center;
-}
-
-
 #mobVid{
 	display: none;
 }
@@ -395,7 +388,7 @@ ul.social-icons3 li a:hover{
 li.agileinfo_share {
     font-size: 0.85em;
     letter-spacing: 4px;
-     color: #191d20;
+     color: #fef4d5;
     font-weight: 700;
     text-transform: uppercase;
     margin-right: 10px;
@@ -1142,7 +1135,6 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
     display: inline-block;
     color: #fff;
 	margin-bottom:.5em;
-    text-transform: capitalize;
 }
 .agileits_w3layouts_footer_grid ul li span{
 	font-weight:600;
@@ -1399,9 +1391,10 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		margin-left: 6em;
 	}
 	.agileits-banner-info {
-		margin: 8em 0 0 0;
-		width: 68%;
-		padding: 0 5em;
+	    background-color:#080808;
+		margin: 26em 0 0 0;
+		width: 40%;
+		padding: 0 2em 1em;
 	}
 }
 @media (max-width: 1050px){
@@ -2271,12 +2264,12 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.agile_w3l_info_gds {
 		float: left;
-		width: 100%;
+		width: 50%;
 	}
 	.view {
 		padding: 1em 1em 2em;
-		width: 285px;
-		height: 356px;
+		width: 160px;
+		height: 180px;
 	}
 	.agile_text_box {
 		padding: 9em 7.1em;
@@ -2425,8 +2418,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.view {
 		padding: 1em 1em 2em;
-		width: 240px;
-		height: 295px;
+		width: 140px;
+		height: 160px;
 	}
 	.agile_text_box {
 		padding: 7em 5.5em;
