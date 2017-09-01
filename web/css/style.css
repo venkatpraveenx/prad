@@ -5,6 +5,13 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+
+.agileits-banner-links{
+		width: 100%;
+		text-align: center;
+}
+
+
 #mobVid{
 	display: none;
 }
