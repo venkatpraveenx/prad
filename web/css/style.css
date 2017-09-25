@@ -5,6 +5,20 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+#sp{
+  color: white;
+}
+
+#sponsors{
+  padding: 5% 10% 10% 10%;
+  background: url(../images/scrolling.jpg)no-repeat center;
+}
+
+#sponsorImage{
+  margin-top: 3%;
+  width: 100%;
+}
+
 
 .agileits-banner-links{
     width: 100%;
